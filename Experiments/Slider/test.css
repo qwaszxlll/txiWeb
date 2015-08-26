@@ -1,0 +1,43 @@
+body {
+        margin: 0;
+        text-align:left;
+}
+
+#container{
+    position:relative;
+    margin:1em;
+    width:600px;
+    height:50px;
+    border: solid 1px #FFB335;
+}
+
+.sec {
+    display:inline-block;
+    margin:0;
+    width:200px;
+    height:35px;
+    padding-top:15px;
+    text-align: center;
+    color: #FFB335;
+    border:none;
+}
+
+.sec:hover{
+    cursor:pointer;
+}
+
+.sAlign{
+    margin-left:-4px;
+}
+
+#slider{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 200px;
+    height:35px;
+    background: #FFB335;
+    color: white;
+    text-align: center;
+    padding-top:15px;
+}

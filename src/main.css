@@ -1,0 +1,45 @@
+body {
+        margin: 0;
+        text-align:center;
+}
+
+img {
+        margin-bottom:-10px;
+}
+
+.mockup {
+        width:100%;
+        position:relative;
+}
+
+#header{
+        position: fixed;
+        left:0;
+        top:0;
+}
+#headerSpace{
+        height: 85vh;
+}
+#nav{
+        
+}
+#intro{
+
+}
+#discoverSection{
+
+}
+#meetSection{
+
+}
+
+
+/*.menuBar {*/
+/*        width:100%;*/
+/*        height:45px;*/
+/*        position:absolute;*/
+/*        float:bottom;*/
+/*        bottom:0;*/
+/*        background: #00467A;*/
+/*        border-top: solid 5px #F9A93F;*/
+/*}*/
