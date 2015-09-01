@@ -1,0 +1,22 @@
+body{
+	margin:0;
+}
+
+#header{
+	position:fixed;
+	top:0;
+}
+.fullscreen{
+	width:100%;
+}
+.notFixed{
+	position:relative;
+	margin-top:-4px;
+}
+#nav{
+	position:fixed;
+	top:0;
+}
+#panel1{
+	margin-top:100vh;
+}
