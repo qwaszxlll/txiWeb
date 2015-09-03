@@ -80,10 +80,11 @@ html, body{
   	text-align: center;
 }
 .main{
-	padding-top:20vh;
+	padding-top:47vh;
 	color:white;
 }
 #unicorn{
+	margin-top: -12em;
 	margin-left: 40%;
 	margin-right: 40%;
 	height:15em;
