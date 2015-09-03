@@ -1,7 +1,7 @@
 .banner {
   height: 50vw;
   background: url(img/houseElements/roofDay.jpg) fixed; 
-  background-position: center bottom;
+  background-position: center center;
   background-size: cover;
 }
 .banner .bannerMask{
@@ -58,6 +58,6 @@
 }
 .summerText{
 	color: white;
-	
+
 
 }
