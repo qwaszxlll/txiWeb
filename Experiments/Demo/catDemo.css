@@ -67,8 +67,9 @@ html, body{
 
 /* HEADER IMAGE */
 .jumbotron {
-  height: 800px;
-  background: url(img/elements/headerIMg.png) no-repeat center center fixed; 
+  height: 100vh;
+  background: url(img/elements/headerImg.png) fixed; 
+  background-position: center bottom;
   background-size: cover;
 }
 .jumbotron .container{
@@ -205,6 +206,9 @@ html, body{
 }
  #brothersText{
  	margin-top: 4em;
+ }
+ #bigPic{
+ 	width:100%;
  }
  #rushText{
  	margin-top: 4.5em;
