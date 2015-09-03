@@ -1,7 +1,7 @@
 html, body{
 	margin: 0;
 	font-family: 'Source Sans Pro';
-  	font-weight: 100;
+  	font-weight: 200;
   	font-size: 1em;
   	color: #515150;
 }
@@ -48,6 +48,7 @@ html, body{
 
 .nav a:link{
 	text-decoration: none;
+	color: #1f1d1f;
 }
 .nav a:visited{
 	color: #1f1d1f;
@@ -62,7 +63,7 @@ html, body{
 	color: #1c4479;
 }
 .nav .currentLink{
-	border-bottom: 2px solid #1c4479;
+	border-bottom: 2px solid #1f1d1f;
 }
 
 /* HEADER IMAGE */
@@ -79,6 +80,7 @@ html, body{
   	position: relative;
   	text-align: center;
 }
+
 .main{
 	padding-top:47vh;
 	color:white;
@@ -104,7 +106,7 @@ html, body{
 	margin-top:-0.2em;
 }
 .main h3{
-	font-weight:100;
+	font-weight:400;
 	margin:0;
 	font-size:2em;
 }
@@ -251,41 +253,5 @@ html, body{
 
 
 
-/*body{
-	margin:0;
-	background: url(img/elements/headerIMg.png) no-repeat center center fixed;
-	background-size: cover;
-}
-#main{
-	background-color:grey;
-	width:500px;
-	height:500px;
-	position:fixed;
-}
 
-#unicorn{
-	border:1px solid black;
-	width:220px;
-	height:245px;
-	margin:auto;
-}
-#unicorn img{
-	width:100%;
-	height:auto;
-}
 
-#logo{
-	border:1px solid black;
-	width:95px;
-	height:60px;
-	margin-left:180px;
-	padding-top:5px;
-}
-#logo img{
-	width:100%;
-	height:auto;
-}
-#main h1{
-	margin-left:180px;
-}
-*/

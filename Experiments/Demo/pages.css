@@ -1,0 +1,63 @@
+.banner {
+  height: 50vw;
+  background: url(img/houseElements/roofDay.jpg) fixed; 
+  background-position: center bottom;
+  background-size: cover;
+}
+.banner .bannerMask{
+	width: 100vw;
+	height:50vw;
+	position:absolute;
+	top: 0;
+	background-color: rgba(0,0,0, 0.2);
+}
+.banner .container{
+	max-width: 950px;
+ 	margin: 0 auto;
+  	padding: 0 5px;
+  	position: relative;
+  	text-align: center;
+}
+.bannerText{
+	padding-top:25vw;
+	color:white;
+}
+.bannerText h1{
+	color: #1c4479;
+	font-family: "Amethysta";
+	font-size: 2.8em;
+	font-weight:100;
+	margin:0;
+	margin-top: -1.8em;
+}
+.bannerText h2{
+	font-size: 2.7em;
+	letter-spacing: 0.1em;
+	margin:0;
+	margin-top:-0.3em;
+}
+.bannerText h3{
+	margin:0;
+	font-weight:200;
+	font-size:1.8em;
+}
+
+.picCol .singlePic{
+	width: 32em;
+}
+.extraSpaceCol{
+	margin-right: 3em;
+	margin-left: 3em;
+}
+
+.summerBox{
+	margin-left:6em;
+	margin-right:6em;
+	padding: 1em;
+	background-color: #1c4479;
+}
+.summerText{
+	color: white;
+	
+
+}
