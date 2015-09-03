@@ -1,0 +1,286 @@
+html, body{
+	margin: 0;
+	font-family: 'Source Sans Pro';
+  	font-weight: 100;
+  	font-size: 1em;
+  	color: #515150;
+}
+
+/* NAV BAR */
+.header{
+	background-color: white;
+	position:fixed;
+	top:0;
+	width:100%;
+	height:auto;
+}
+.header .container{
+	max-width: 950px;
+ 	margin: 0 auto;
+  	padding: 0 5px;
+  	position: relative;
+  	height:auto;
+}
+.nav {
+	margin: 0;
+  	padding: 1em;
+  	padding-right: 0.5em;
+  	position:absolute;
+  	top:0;
+  	right:0;
+  
+}
+#smallLogo{
+	position:relative;
+	margin: 0.5em;
+	height: 2em;
+	font-size: 1.1em;
+}
+.nav li {
+  color: #1f1d1f;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-size: 1.1em;
+  margin-left:80px;
+  display:inline;
+}
+
+
+.nav a:link{
+	text-decoration: none;
+}
+.nav a:visited{
+	color: #1f1d1f;
+}
+
+.nav a:hover {
+  color: #1c4479;
+  cursor: pointer;
+}
+
+.nav a:active{
+	color: #1c4479;
+}
+.nav .currentLink{
+	border-bottom: 2px solid #1c4479;
+}
+
+/* HEADER IMAGE */
+.jumbotron {
+  height: 800px;
+  background: url(img/elements/headerIMg.png) no-repeat center center fixed; 
+  background-size: cover;
+}
+.jumbotron .container{
+	max-width: 950px;
+ 	margin: 0 auto;
+  	padding: 0 5px;
+  	position: relative;
+  	text-align: center;
+}
+.main{
+	padding-top:20vh;
+	color:white;
+}
+#unicorn{
+	margin-left: 40%;
+	margin-right: 40%;
+	height:15em;
+}
+#logo{
+	height:3em;
+}
+.main h1{
+	font-family: "Amethysta";
+	font-size: 3em;
+	font-weight:100;
+	margin:0;
+	margin-top:-0.2em;
+}
+.main h2{
+	margin:0;
+	margin-top:-0.2em;
+}
+.main h3{
+	font-weight:100;
+	margin:0;
+	font-size:2em;
+}
+/* DISCOVER PANEL*/
+.panel{
+	text-align: center;
+	width:100%;
+
+	padding-top: 4em;
+	position:relative;
+}
+.textCol{
+	width: 32em;
+	max-width: 85%;
+	display:inline-block;
+	margin: 2em;
+	margin-top: 1em;
+	vertical-align: top;
+}
+.textCol h1{
+	color: #1c4479;
+	font-family: "Amethysta";
+	font-size: 2.9em;
+	font-weight: 100;
+	margin:0;
+
+}
+.textCol h2{
+	color: #1f1d1f;
+	font-size: 2.6em;
+	margin: 0;
+	margin-top: -0.55em;
+	letter-spacing: 0.1em;
+}
+.textCol h3{
+	color: #1c4479;
+	font-size: 3.2em;
+	font-family: "Cabin";
+	font-weight:200;
+	padding-top: 0.1em;
+	margin: 0;
+	margin-bottom: -0.4em;
+}
+.textCol p{
+	font-family: "Cabin";
+}
+
+.textCol .blurbLink{
+	padding-top: 1em;
+	color: #1c4479;
+	font-size: 1.2em;
+}
+
+.textCol .blurbLink a:link{
+	text-decoration: none;
+	border-bottom: 0.15em solid #1c4479;
+}
+
+.textCol .blurbLink a:hover{
+	opacity:0.7;
+}
+
+.textCol .blurbLink a:visited{
+	color: #1c4479;
+
+}
+
+.textCol .blurbLink a:active{
+	opacity: 0.7;
+}
+
+.picCol{
+	width: auto;
+	display:inline-block;
+	margin-left: 2em;
+	vertical-align: top;
+}
+.doublePic{
+	margin-right:2em;
+	height: 25em;
+}
+.tripleImgPanel{
+	width:100%;
+	text-align: center;
+	margin-top: 4em;
+}
+.triplePic{
+	margin: 0.7%;
+	width:31%;
+
+}
+#quadPicCol{
+	margin-left: 3em;
+	margin-right: 3em;
+
+}
+.quadPic{
+	margin: 0.9%;
+	width: 47%;
+}
+ #brothersText{
+ 	margin-top: 4em;
+ }
+ #rushText{
+ 	margin-top: 4.5em;
+ }
+
+ .footer{
+ 	background-color: #1f1d1f;
+ 	text-align: center;
+ 	color: #9b9b9b;
+ 	padding-top: 2em;
+ 	padding-bottom: 2em;
+ 	margin-top: 3em;
+ }
+ .credits{
+ 	width: 80%;
+ 	margin-right: 10%;
+ 	margin-left: 10%;
+ }
+ .footer .footerLink a:link{
+	text-decoration: none;
+}
+.footer .footerLink a:visited{
+	color: #9b9b9b;
+}
+
+.footer .footerLink a:hover{
+	color: #ffffff;
+}
+
+.footer .footerbLink a:active{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+/*body{
+	margin:0;
+	background: url(img/elements/headerIMg.png) no-repeat center center fixed;
+	background-size: cover;
+}
+#main{
+	background-color:grey;
+	width:500px;
+	height:500px;
+	position:fixed;
+}
+
+#unicorn{
+	border:1px solid black;
+	width:220px;
+	height:245px;
+	margin:auto;
+}
+#unicorn img{
+	width:100%;
+	height:auto;
+}
+
+#logo{
+	border:1px solid black;
+	width:95px;
+	height:60px;
+	margin-left:180px;
+	padding-top:5px;
+}
+#logo img{
+	width:100%;
+	height:auto;
+}
+#main h1{
+	margin-left:180px;
+}
+*/
