@@ -1,9 +1,11 @@
 #houseBanner{
 	background: url(img/houseElements/roofDay.jpg) fixed; 
+	background-size:100%;
+	background-position: center -15vw;
 }
 .banner {
   height: 50vw;
-  background-position: center top;
+  background-position: center -30vw;
   background-size: 100%;
   background-repeat: no-repeat;
 }
