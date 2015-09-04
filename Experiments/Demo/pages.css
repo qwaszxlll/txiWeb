@@ -1,11 +1,14 @@
+#houseBanner{
+	background: url(img/houseElements/roofDay.jpg) fixed; 
+}
 .banner {
   height: 50vw;
-  background: url(img/houseElements/roofDay.jpg) fixed; 
-  background-position: center center;
-  background-size: cover;
+  background-position: center top;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .banner .bannerMask{
-	width: 100vw;
+	width: 100%;
 	height:50vw;
 	position:absolute;
 	top: 0;

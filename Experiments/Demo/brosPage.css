@@ -1,0 +1,61 @@
+#broBanner{
+	background: url(img/otherPages/brothers.jpg) fixed; 
+	background-size: 100%;
+}
+
+.broContent{
+	position:relative;
+	padding: 0;
+	padding-top: 1.5em;
+	text-align:center;
+}
+.broContainer {
+	width:20vw;
+	height:20vw;
+	margin:1.5em;
+	position:relative;
+	display:inline-block;
+}
+
+.broPic{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+.broOverlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.5);
+	opacity:0;
+	color:white;
+}
+.broOverlay:hover{
+	opacity:1;
+}
+.deltaNum{
+	padding-top: calc(10vw - 4.5em);
+
+}
+.broOverlay h1{
+	font-weight: 200;
+	margin:0;
+}
+.broOverlay h2{
+	font-weight: 200;
+	margin:0;
+
+}
+.withBorder {
+	border-bottom: .1em solid white;
+	width:auto;
+	display:inline-block;
+}
+.broOverlay p{
+	padding-right: 1.3em;
+	padding-left: 1.3em;
+}
