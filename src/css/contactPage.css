@@ -1,0 +1,53 @@
+#contactBanner{
+	background: url(../img/elements/headerImg.png) fixed; 
+	background-size: 100%;
+	height:35vw;
+}
+#smallerMask{
+	height:35vw;
+}
+.contactInfo{
+	position:relative;
+	text-align: center;
+	margin:auto;
+}
+.infoContainer {
+	width:20vw;
+	height:20vw;
+	margin:1.5em;
+	position:relative;
+	display:inline-block;
+}
+.noMargin{
+	margin:0;
+}
+.contactInfo h2{
+	color:#1c4479;
+	font-family: "Amethysta";
+	margin-top: 4em;
+}
+.contactInfo h3{
+	color:#1f1d1f;
+	margin-top: -.2em;
+	margin-bottom: .8em;
+}
+.contactInfo a{
+	color: #1c4479;
+}
+.contactInfo a:link{
+	text-decoration: none;
+	border-bottom: 0.1em solid #1c4479;
+}
+
+.contactInfo a:hover{
+	opacity:0.7;
+}
+
+.contactInfo a:visited{
+	color: #1c4479;
+
+}
+
+.contactInfo a:active{
+	opacity: 0.7;
+}

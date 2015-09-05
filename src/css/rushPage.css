@@ -1,0 +1,10 @@
+#rushBanner{
+	background: url(../img/otherPages/rush.png) fixed; 
+	background-size: 100%;
+}
+.temp{
+	margin-top: 2em;
+	text-align: center;
+	font-family: "Amethysta";
+	color: #1c4479;
+}
