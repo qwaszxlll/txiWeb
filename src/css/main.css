@@ -7,14 +7,22 @@ html, body{
 }
 
 /* NAV BAR */
-.header{
-	background-color: white;
+.navBar{
 	position:fixed;
 	top:0;
 	width:100%;
 	height:auto;
 }
-.header .container{
+.navBar.clear {
+	background: rgba(255, 255, 255, 0);
+	color: white;
+}
+
+.navBar.solid {
+	background: white;
+	color: #1f1d1f;
+}
+.navBar .container{
 	max-width: 950px;
  	margin: 0 auto;
   	padding: 0 5px;
@@ -23,53 +31,69 @@ html, body{
 }
 .nav {
 	margin: 0;
-  	padding: 1em;
+  	padding: 1.1em;
   	padding-right: 0.5em;
   	position:absolute;
   	top:0;
   	right:0;
   
 }
-#smallLogo{
+.navBar img{
 	position:relative;
 	margin: 0.5em;
 	height: 2em;
 	font-size: 1.1em;
+	margin-top: 0.7em;
 }
+.clear #solidLogo {
+	display:none;
+}
+.solid #clearLogo {
+	display:none;
+}
+
+.nav{
+	max-width:70%;
+}
+
 .nav li {
-  color: #1f1d1f;
+  color: inherit;
   font-family: 'Source Sans Pro';
   font-weight: 400;
   font-size: 1.1em;
   margin-left:80px;
-  display:inline;
+  display:inline-block;
+  height:2em;
 }
 
 
 .nav a:link{
 	text-decoration: none;
-	color: #1f1d1f;
+	color: inherit;
 }
 .nav a:visited{
-	color: #1f1d1f;
+	color: inherit;
 }
 
 .nav a:hover {
-  color: #1c4479;
+  color: inherit;
   cursor: pointer;
 }
 
 .nav a:active{
-	color: #1c4479;
+	color: inherit;
 }
-.nav .currentLink{
+.solid .currentLink{
 	border-bottom: 2px solid #1f1d1f;
+}
+.clear .currentLink{
+	border-bottom: 2px solid white;
 }
 
 /* HEADER IMAGE */
 .jumbotron {
   height: 100vh;
-  background: url(../img/elements/headerImg.png) fixed; 
+  background: url(../img/banners/txiFront.jpg) fixed; 
   background-position: center bottom;
   background-size: cover;
 }
@@ -86,10 +110,12 @@ html, body{
 	color:white;
 }
 #unicorn{
+	width:15em;
 	margin-top: -12em;
-	margin-left: 40%;
-	margin-right: 40%;
-	height:15em;
+	margin-left: calc(50% - 9em);
+	margin-right: 0;
+	display:block;
+	
 }
 #logo{
 	height:3em;
@@ -103,13 +129,41 @@ html, body{
 }
 .main h2{
 	margin:0;
-	margin-top:-0.2em;
+	font-size: 2.2em;
+	font-family: "Cabin";
+	font-weight:100;
+	height:1em;
 }
 .main h3{
 	font-weight:400;
 	margin:0;
+	margin-top: -0.3em;
 	font-size:2em;
 }
+.horizontalBar{
+	width: 5em;
+	height: 0.08em;
+	margin-bottom: 0.55em;
+	background: white;
+	display: inline-block;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-top: 0.2em solid transparent;
+	border-bottom: 0.2em solid transparent;
+	margin-bottom: 0.42em;
+	display: inline-block;
+}
+.triLeft{
+	border-left: 0.2em solid white;
+	margin-right: -0.3em;
+}
+.triRight{
+	border-right: 0.2em solid white;
+	margin-left: -0.3em;
+}
+
 /* DISCOVER PANEL*/
 .panel{
 	text-align: center;
@@ -159,6 +213,9 @@ html, body{
 	color: #1c4479;
 	font-size: 1.2em;
 }
+.textCol .blurbLink a{
+	color: #1c4479;
+}
 
 .textCol .blurbLink a:link{
 	text-decoration: none;
@@ -171,7 +228,6 @@ html, body{
 
 .textCol .blurbLink a:visited{
 	color: #1c4479;
-
 }
 
 .textCol .blurbLink a:active{
@@ -201,12 +257,15 @@ html, body{
 #quadPicCol{
 	margin-left: 3em;
 	margin-right: 3em;
+	width:40%;
+	min-width: 20em;
 
 }
 .quadPic{
 	margin: 0.9%;
 	width: 47%;
 }
+
  #brothersText{
  	margin-top: 4em;
  }
@@ -230,6 +289,10 @@ html, body{
  	margin-right: 10%;
  	margin-left: 10%;
  }
+ .footer .footerLink a{
+	color: #9b9b9b;
+}
+
  .footer .footerLink a:link{
 	text-decoration: none;
 }
@@ -245,7 +308,13 @@ html, body{
 	color: white;
 }
 
-
+.animateAll {
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -ms-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
 
 
 

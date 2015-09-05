@@ -8,16 +8,24 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,light|Amethysta|Cabin">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 	
 
 	<div class="jumbotron">
 		<div class="container">
 			<div class="main">
-				<img id="unicorn" src="img/elements/unicorn.png"/>
-				<img id="logo" src="img/elements/txiLogo.png"/>
+				<img id="unicorn" src="img/logos/unicorn.png"/>
+				<img id="logo" src="img/logos/txiLogo.png"/>
 				<h1>Delta Chapter</h1>
-				<h2>|-------------------- * --------------------|</h2>
+				
+				<h2>
+					<div class='triangle triLeft'></div>
+					<div class='horizontalBar'></div>
+					*
+					<div class='horizontalBar'></div>
+					<div class='triangle triRight'></div>
+				</h2>
 				<h3>since 1885</h3>
 			</div>
 		</div>
@@ -31,30 +39,30 @@
 			<p>The Delta Chapter of Theta Xi is first and foremost, a brotherhood of MIT students situated in the heart of Kenmore Square. We live, study, and party together; we support each other when we fall, and celebrate with each other when we reach our goals.</p>
 			<p>We're also an immensely diverse group of individuals, with brothers hailing from all over the world, who are involved in all sorts of activities, including A Capella, Dance Troupe, and Varsity Teams to name a few.</p>
 			<div class="blurbLink">
-				<a href="house.html">Explore The House</a>
+				<a href="http://localhost:8000/house">Explore The House</a>
 			</div>
 		</div>
 		<div class="picCol">
-			<img id="doubleImg1" class='doublePic' src="img/snowyCitgo.png"/>
-			<img id="doubleImg2" class='doublePic' src="img/snowFight.png"/>
+			<img id="doubleImg1" class='doublePic' src="img/actionShots/snowyCitgo.png"/>
+			<img id="doubleImg2" class='doublePic' src="img/actionShots/snowFight.png"/>
 		</div>
 	</div>
 
 	<div class="panel">
-		<img class="triplePic" src="img/turkey.png"/>
-		<img class="triplePic" src="img/hugging.png"/>
-		<img class="triplePic" src="img/boatRomance.png"/>
+		<img class="triplePic" src="img/actionShots/cooking.png"/>
+		<img class="triplePic" src="img/actionShots/hugging.png"/>
+		<img class="triplePic" src="img/actionShots/broBoating.png"/>
 	</div>
 
 	<div class="panel">
 		<div id="quadPicCol" class="picCol">
 			<div class="picRow">
-				<img class="quadPic" src="img/guitar.png"/>
-				<img class="quadPic" src="img/theEnd.png"/>
+				<img class="quadPic" src="img/actionShots/guitar.png"/>
+				<img class="quadPic" src="img/actionShots/theEnd.png"/>
 			</div>
 			<div class="picRow">
-				<img class="quadPic" src="img/silly.png"/>
-				<img class="quadPic" src="img/formal.png"/>
+				<img class="quadPic" src="img/actionShots/silly.jpg"/>
+				<img class="quadPic" src="img/actionShots/formal.jpg"/>
 			</div>
 		</div>
 		<div id="brothersText" class="textCol">
@@ -63,13 +71,13 @@
 			<h3>*</h3>
 			<p>The bonds you make at Theta Xi will last you a lifetime, and between the parties, gatherings, and hangouts, you're guaranteed to make memories that you can cherish for a lifetime.</p>
 			<div class="blurbLink">
-				<a href="brothers.html">Meet The Brothers</a>
+				<a href="http://localhost:8000/brothers">Meet The Brothers</a>
 			</div>
 		</div>
 	</div>
 
 	<div class="panel">
-		<img id="bigPic"src="img/halloween.png"/>
+		<img id="bigPic"src="img/actionShots/halloween.png"/>
 	</div>
 
 	<div class="panel">
@@ -79,17 +87,17 @@
 			<h3>*</h3>
 			<p>If you are an incoming Freshman or Sophmore at MIT, then Rush is for you! Starting September 5th, we will be opening our house to you to show you the best events, food, and fun that we have to offer. Be sure to check us out!</p>
 			<div class="blurbLink">
-				<a href="rush.html">Rush!</a>
+				<a href="http://localhost:8000/rush">Rush!</a>
 			</div>
 		</div>
 		<div id="quadPicCol" class="picCol">
 			<div class="picRow">
-				<img class="quadPic" src="img/barMenu.png"/>
-				<img class="quadPic" src="img/txiUnplugged.png"/>
+				<img class="quadPic" src="img/rooms/bar.png"/>
+				<img class="quadPic" src="img/rush/beach.png"/>
 			</div>
 			<div class="picRow">
-				<img class="quadPic" src="img/food.png"/>
-				<img class="quadPic" src="img/beach.png"/>
+				<img class="quadPic" src="img/rush/nigel.jpg"/>
+				<img class="quadPic" src="img/rush/lobster.jpg"/>
 			</div>
 		</div>
 	</div>
@@ -98,16 +106,17 @@
 		<div class="credits">
 			<p>&copy; THETA XI DELTA CHAPTER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 64 Bay State Rd &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; photos by Xander Lim and Caleb Lin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; site by Caleb Lin and Catalina Damarati</p> 
 			<div class="footerLink">
-				<a href="contact.html">Contact Us</a>
+				<a href="http://localhost:8000/contact">Contact Us</a>
 			</div>
 		</div>
 	</div>
 
-	<div class="header">
+	<div class="navBar clear animateAll">
 		<div class="container">
-			<img id="smallLogo" src="img/unnamed.png"/>
+			<img id="solidLogo" src="img/logos/txiLogoBlack.png"/>
+			<img id="clearLogo" src="img/logos/txiLogo.png"/>
 			<ul class="nav">
-				<li><a class="currentLink" href="">Home</a></li>
+				<li><a class="currentLink" href="http://localhost:8000/">Home</a></li>
 				<li><a href="http://localhost:8000/house">House</a></li>
 				<li><a href="http://localhost:8000/brothers">Brothers</a></li>
 				<li><a href="http://localhost:8000/rush">Rush</a></li>

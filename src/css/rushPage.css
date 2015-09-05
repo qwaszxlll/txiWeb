@@ -1,10 +1,55 @@
 #rushBanner{
-	background: url(../img/otherPages/rush.png) fixed; 
+	background: url(../img/rush/nigel.jpg) fixed; 
 	background-size: 100%;
+	background-position:center bottom;
 }
-.temp{
+.appInfo{
+	margin-left: 10vw;
+	width: 80vw;
+	max-width: calc(80vw - 3em);
+	height:20em;
+	padding:1.5em;
+	padding-left: 6%;
 	margin-top: 2em;
+	position:relative;
+	display:inline-block;
+	vertical-align: top;
+	border-bottom: 0.5em solid #1c4479;
+}
+
+.appInfo p{
+	width: 40%;
+	min-width: 18em;
+}
+
+.rushContent{
+	background: rgba(255, 255, 255, 0.3);
+	position:relative;
+	padding: 0;
+	padding-top: 1.5em;
+	text-align:center;
+}
+
+.rushContainer {
+	width:20vw;
+	min-width: 25em;
+	height:20em;
+	padding:1.5em;
+	margin-top: 2em;
+	position:relative;
+	display:inline-block;
+	vertical-align: top;
+	border-bottom: 0.5em solid #1c4479;
+}
+
+.rushContainer h1{
+	margin: 0;
+}	
+.rushContainer h2{
+	margin: 0;
+}	
+
+.rushTitle {
 	text-align: center;
-	font-family: "Amethysta";
-	color: #1c4479;
+	font-size:3em;
 }

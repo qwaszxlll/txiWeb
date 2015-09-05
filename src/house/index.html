@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/pages.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:light,regular,bold|Amethysta|Cabin">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../pages.js"></script>
+
 
 </head>
 	
@@ -18,7 +20,13 @@
 			<div class="bannerText">
 				<h1>Explore</h1>
 				<h2>THE HOUSE</h2>
-				<h3>|-------------------- * --------------------|</h3>
+				<h3>
+					<div class='triangle triLeft'></div>
+					<div class='horizontalBar'></div>
+					*
+					<div class='horizontalBar'></div>
+					<div class='triangle triRight'></div>
+				</h3>
 				<h3>2 beautiful brownstones nestled along Bay State Road</h3>
 			</div>
 		</div>
@@ -32,13 +40,13 @@
 			<p>The front patio is a great place to set up shot for a grillout, and with our brand new grill, we take advantage of all the good weather days that Boston has to offer.</p>
 		</div>
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/patio.png"/>
+			<img class="singlePic" src="../img/rooms/patio.png"/>
 		</div>
 	</div>
 
 	<div class="panel">
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/poolRoom.jpg"/>
+			<img class="singlePic" src="../img/rooms/poolRoom.jpg"/>
 		</div>
 		<div class="textCol extraSpaceCol">
 			<h1>64 Commons</h1>
@@ -56,13 +64,13 @@
 			<p>This is where the magic happens, friends are made, and good drinks are served. The bar is equipped with a brand new Keurig, a microwave, a fridge, a hand-espresso maker, and a full stock of different types of tea.</p>
 		</div>
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/barMenu.png"/>
+			<img class="singlePic" src="../img/rooms/bar.jpg"/>
 		</div>
 	</div>
 
 	<div class="panel">
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/commons.jpg"/>
+			<img class="singlePic" src="../img/rooms/64Commons.jpg"/>
 		</div>
 		<div class="textCol extraSpaceCol">
 			<h1>66 Commons</h1>
@@ -80,13 +88,13 @@
 			<p>The dining room can comfortably seat 20 people, and is usually filled with brothers Sunday-Thursday evenings for meals cooked by our private chef.</p>
 		</div>
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/diningRoom.jpg"/>
+			<img class="singlePic" src="../img/rooms/diningRoom.jpg"/>
 		</div>
 	</div>
 
 	<div class="panel">
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/room.jpg"/>
+			<img class="singlePic" src="../img/rooms/tripleRoom.jpg"/>
 		</div>
 		<div class="textCol extraSpaceCol">
 			<h1>A Brother's</h1>
@@ -104,7 +112,7 @@
 			<p>The roofdeck has a direct line of sight to the Charles River, right where the 4th of July fireworks are set off, and is a great place for events and stargazing on a good night.</p>
 		</div>
 		<div class="picCol extraSpaceCol">
-			<img class="singlePic" src="../img/houseElements/roofCut.png"/>
+			<img class="singlePic" src="../img/rooms/roofCut.png"/>
 		</div>
 	</div>
 
@@ -128,11 +136,12 @@
 		</div>
 	</div>
 
-	<div class="header">
+	<div class="navBar clear animateAll">
 		<div class="container">
-			<img id="smallLogo" src="../img/unnamed.png"/>
+			<img id="solidLogo" src="../img/logos/txiLogoBlack.png"/>
+			<img id="clearLogo" src="../img/logos/txiLogo.png"/>
 			<ul class="nav">
-				<li><a href="http://localhost:8000">Home</a></li>
+				<li><a href="http://localhost:8000/">Home</a></li>
 				<li><a class="currentLink" href="http://localhost:8000/house">House</a></li>
 				<li><a href="http://localhost:8000/brothers">Brothers</a></li>
 				<li><a href="http://localhost:8000/rush">Rush</a></li>

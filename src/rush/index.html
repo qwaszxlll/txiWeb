@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="../css/rushPage.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:light,regular,bold|Amethysta|Cabin">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+    <script type="text/javascript" src="rush.js"></script>
+    <script type="text/javascript" src="../pages.js"></script>
+
 
 </head>
 	
@@ -19,13 +23,28 @@
 			<div class="bannerText">
 				<h1>Rush</h1>
 				<h2>THETA XI</h2>
-				<h3>|-------------------- * --------------------|</h3>
+				<h3>
+					<div class='triangle triLeft'></div>
+					<div class='horizontalBar'></div>
+					*
+					<div class='horizontalBar'></div>
+					<div class='triangle triRight'></div>
+				</h3>
 				<h3>A week full of fun events, delicious food, and great company</h3>
 			</div>
 		</div>
 	</div>
-	<div class="temp">
-		<h1>COMING SOON!</h1>
+	<div class='appInfo'>
+		<div>
+			<h2>Theta Xi Rush App</h2>
+			<h1>Webapp</h1>
+			<h2><a>txi-rush.mit.edu</a></h2>
+			<p>The Theta Xi Rush App enables you to request pickups from anywhere on campus with a quick touch of a button, after which we will send a van or car to come pick you up as soon as possible. There is also a built in rush schedule and a full brothers roster.</p>
+		</div>
+	</div>
+	<h1 class='rushTitle'> RUSH SCHEDULE 2015 </h1>
+	<div id="rushBox" class="rushContent">
+		
 	</div>
 
 	
@@ -39,11 +58,12 @@
 		</div>
 	</div>
 
-	<div class="header">
+	<div class="navBar clear animateAll">
 		<div class="container">
-			<img id="smallLogo" src="../img/unnamed.png"/>
+			<img id="solidLogo" src="../img/logos/txiLogoBlack.png"/>
+			<img id="clearLogo" src="../img/logos/txiLogo.png"/>
 			<ul class="nav">
-				<li><a href="http://localhost:8000">Home</a></li>
+				<li><a href="http://localhost:8000/">Home</a></li>
 				<li><a href="http://localhost:8000/house">House</a></li>
 				<li><a href="http://localhost:8000/brothers">Brothers</a></li>
 				<li><a class="currentLink" href="http://localhost:8000/rush">Rush</a></li>
