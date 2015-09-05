@@ -7,7 +7,7 @@
 	margin-left: 10vw;
 	width: 80vw;
 	max-width: calc(80vw - 3em);
-	height:20em;
+	height:auto;
 	padding:1.5em;
 	padding-left: 6%;
 	margin-top: 2em;
@@ -44,7 +44,7 @@
 
 .rushContainer {
 	width:20vw;
-	min-width: 25em;
+	min-width: 18em;
 	height:20em;
 	padding:1.5em;
 	margin-top: 2em;
@@ -68,4 +68,5 @@
 
 .rushSubtitle{
 	text-align: center;
+	padding: 1em;
 }
