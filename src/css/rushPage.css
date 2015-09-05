@@ -22,6 +22,18 @@
 	min-width: 18em;
 }
 
+.appInfo .col{
+	width: 15em;
+	display:inline-block;
+}
+
+.appInfo img{
+	margin-left: 2em;
+	margin-bottom: 2em;
+	height: 4em;
+	display:inline-block;
+}
+
 .rushContent{
 	background: rgba(255, 255, 255, 0.3);
 	position:relative;
